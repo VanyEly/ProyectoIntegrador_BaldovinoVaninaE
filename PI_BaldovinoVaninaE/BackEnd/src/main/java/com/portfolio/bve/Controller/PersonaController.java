@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class PersonaController {
+  public class PersonaController {
     @Autowired IPersonaService ipersonaService;
     
-    @GetMapping("persona/traer")
+    @GetMapping("personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
     }
@@ -34,8 +34,8 @@ public class PersonaController {
         ipersonaService.deletePersona(id);
         return "La persona fue eliminada correctamente";
     }
-    
-    @PutMapping("/persona/editar/{id}")
+    //URL:PUERTO/personas/editar/4/nombre & apellido & img
+    @PutMapping("/personas/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
                                @RequestParam("nombre") String nuevoNombre,
                                @RequestParam("apellido") String nuevoApellido,
