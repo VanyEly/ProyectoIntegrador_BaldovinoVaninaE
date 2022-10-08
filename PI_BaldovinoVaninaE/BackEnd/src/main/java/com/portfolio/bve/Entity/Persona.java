@@ -1,5 +1,6 @@
 package com.portfolio.bve.Entity;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,8 +11,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter 
-@Entity
-public class Persona {
+public class Persona implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

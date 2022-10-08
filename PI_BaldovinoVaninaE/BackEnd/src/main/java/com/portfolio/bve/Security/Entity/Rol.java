@@ -5,7 +5,7 @@
 package com.portfolio.bve.Security.Entity;
 
 import com.portfolio.bve.Security.Enums.RolNombre;
-import javax.persistence.Entity;
+import java.io.Serializable;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
@@ -13,8 +13,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-@Entity 
-public class Rol {
+
+public class Rol implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
