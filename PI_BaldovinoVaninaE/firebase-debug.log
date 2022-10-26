@@ -1,0 +1,39 @@
+[debug] [2022-10-25T23:32:13.656Z] ----------------------------------------------------------------------
+[debug] [2022-10-25T23:32:13.659Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Programación\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-25T23:32:13.660Z] CLI Version:   11.15.0
+[debug] [2022-10-25T23:32:13.660Z] Platform:      win32
+[debug] [2022-10-25T23:32:13.660Z] Node Version:  v16.18.0
+[debug] [2022-10-25T23:32:13.662Z] Time:          Tue Oct 25 2022 20:32:13 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-10-25T23:32:13.662Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-25T23:32:13.675Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-25T23:32:13.675Z] > authorizing via signed-in user (vany.ely@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Programación\Documents\ProyectoIntegrador_BaldovinoVaninaE-1\PI_BaldovinoVaninaE
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-25T23:33:11.761Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-25T23:33:12.382Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-10-25T23:33:12.382Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project frontedbal (frontedbal) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
