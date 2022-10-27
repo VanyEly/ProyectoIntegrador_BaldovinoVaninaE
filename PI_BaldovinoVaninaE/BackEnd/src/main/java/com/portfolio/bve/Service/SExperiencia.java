@@ -22,7 +22,7 @@ public class SExperiencia {
         return rExperiencia.findAll();
     }
     
-    public Optional<Experiencia> getOn(int id) {
+    public Optional<Experiencia> getOne(int id) {
         return rExperiencia.findById(id);
     }
     
@@ -46,11 +46,4 @@ public class SExperiencia {
         return rExperiencia.existsByNombreE(nombreE);
     }
 
-    public boolean existsByNombreE(String nombreE) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-
-    public Object getOne(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
 }
